@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score,confusion_matrix,classification_report
 
-df = pd.read_csv('/Users/anushkahadkhale/Desktop/Early Detection of Parkinson’s Disease/parkinsons/parkinsons.data')
+df = pd.read_csv('/Users/anushkahadkhale/Desktop/Ml_project/Early_detection_of_parkinsons/parkinsons/parkinsons.data')
 print(df.head())
 print(df.info())
 #dropping the non-feature column
