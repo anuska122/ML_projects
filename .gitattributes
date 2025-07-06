@@ -1,2 +1,0 @@
-cd /Users/anushkahadkhale/Desktop/Ml_project/Early_detection_of_parkinsons
-*.csv filter=lfs diff=lfs merge=lfs -text
