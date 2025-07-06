@@ -1,3 +1,38 @@
-.DS_Store
-.gitattributes
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/
+*.csv
+*.data
+*.xlsx
+
+# Model files and arrays
+*.pkl
+*.joblib
+*.npy
+*.h5
+
+# Results, logs, and plots
+results/
+*.log
+*.png
+*.jpg
+*.jpeg
+
+# System files
+.DS_Store
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+
+# pip and poetry logs
+pip-log.txt
+poetry.lock
